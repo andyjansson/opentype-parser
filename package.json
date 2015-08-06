@@ -1,0 +1,14 @@
+{
+  "name": "opentype-parser",
+  "version": "1.0.0",
+  "description": "OpenType font parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Andy Jansson",
+  "license": "MIT",
+  "dependencies": {
+    "iconv-lite": "^0.4.11"
+  }
+}
