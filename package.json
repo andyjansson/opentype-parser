@@ -9,6 +9,7 @@
   "author": "Andy Jansson",
   "license": "MIT",
   "dependencies": {
+    "es6-promise": "^3.0.2",
     "iconv-lite": "^0.4.11"
   },
   "devDependencies": {
