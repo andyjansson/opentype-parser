@@ -1,4 +1,4 @@
-var Promise = global.Promise || require('es6-promise').Promise;
+var Promise = require('pinkie-promise');
 var name = require('./lib/name');
 var os2 = require('./lib/os2');
 
