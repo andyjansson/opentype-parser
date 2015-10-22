@@ -3,13 +3,27 @@
   "version": "1.0.0",
   "description": "OpenType font parser",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyjansson/opentype-parser.git"
+  },
+  "keywords": [
+    "opentype",
+    "otf",
+    "ttf",
+    "parser",
+    "font"
+  ],
   "author": "Andy Jansson",
   "license": "MIT",
   "dependencies": {
-    "es6-promise": "^3.0.2",
     "iconv-lite": "^0.4.11"
   },
   "devDependencies": {
